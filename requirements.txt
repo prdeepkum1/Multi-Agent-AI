@@ -1,0 +1,71 @@
+# =========================
+# CORE LLM + AGENT STACK
+# =========================
+openai
+langchain
+langchain-core
+langchain-community
+langchain-openai
+
+# LCEL / Runnable pipeline support (included in langchain-core, but explicit for clarity)
+langchain-experimental
+
+# =========================
+# AGENT FRAMEWORK
+# =========================
+pydantic
+tenacity
+python-dotenv
+
+# ReAct-style agent reasoning support
+langgraph
+
+# =========================
+# TOOLS
+# =========================
+
+# Tavily search tool (web research agent)
+tavily-python
+
+# Web scraping tool (BeautifulSoup agent)
+beautifulsoup4
+lxml
+requests
+
+# =========================
+# DATA HANDLING / TABLE TOOL ("Tablely")
+# =========================
+pandas
+numpy
+tabulate
+
+# =========================
+# LCEL / Runnables utilities
+# =========================
+typing-extensions
+
+# =========================
+# TOKEN + LLM UTILITIES
+# =========================
+tiktoken
+
+# =========================
+# LOGGING / DEBUGGING
+# =========================
+loguru
+
+# =========================
+# OPTIONAL (API / PRODUCTION SERVER)
+# =========================
+fastapi
+uvicorn
+
+# =========================
+# OPTIONAL (ASYNC / SCALING)
+# =========================
+aiohttp
+
+# =========================
+# OPTIONAL (SERIALIZATION / CACHE)
+# =========================
+orjson
